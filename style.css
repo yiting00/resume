@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}
+
+.slogan {
+    float: right;
+    font-size: 29px;
+    opacity: 0.25;
+    font-style: italic;
+}
+
+body {
+    width: 1024px;
+    background-color: #f9f5e8;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav {
+    background-color: #d3b17d;
+    padding: 4px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #d3b17d;
+    border-radius: 10px;
+}
+
+section {
+    background-color: #CCD5AE;
+    overflow: hidden;
+    padding: 20px;
+    margin-bottom: 34px;
+    border-radius: 10px;
+}
+
+#myImage {
+    margin: 40px 120px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    transition: transform 0.3s ease;
+}
+
+#myImage:hover {
+    transform: scale(1.1);
+}
+
+#icon {
+    margin: 0px 10px;
+    width: 40px;
+    height: 40px;
+}
+
+#activity {
+    margin: 30px 90px 30px 120px;
+    width: 360px;
+    height: 210px;
+    border-radius: 15px;
+    float: left;
+    transition: transform 0.3s ease;
+}
+
+#activity:hover {
+    transform: scale(1.1);
+}
+
+#hobby {
+    margin: 30px 90px;
+    width: 75px;
+    height: 75px;
+    transition: transform 0.3s ease;
+}
+
+#hobby:hover {
+    transform: scale(1.1);
+}
+
+#prize {
+    margin: 0px 100px;
+    width: 230px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+#prize:hover {
+    transform: scale(1.1);
+}
+
+article {
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    grid-column: 1 / span 2;
+}
+
+.value {
+    text-align: center;
+    /* 文字置中 */
+    line-height: 30px;
+    /* 與容器高度一致 */
+}
+
+nav.chart {
+    background-color: #FEFAE0;
+    margin: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bar-container {
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.label {
+    padding-left: 15px;
+    padding-right: 10px;
+    width: 100px;
+}
+
+.label2 {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.bar {
+    height: 100%;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #d3b17d;
+    border-radius: 5px;
+}
+
+.piechart {
+    margin: 25px auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1em;
+}
+
+.pie1,
+.pie2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: white linear-gradient(to right, transparent 50%, #d3b17d 0);
+}
+
+.pie1::before {
+    content: '';
+    display: block;
+    margin-left: 50%;
+    height: 100%;
+    border-radius: 0 100% 100% 0 / 50%;
+    background-color: #d3b17d;
+    transform-origin: left;
+    transform: rotate(.1turn);
+}
+
+.pie2::before {
+    content: '';
+    display: block;
+    margin-left: 50%;
+    height: 100%;
+    border-radius: 0 100% 100% 0 / 50%;
+    background-color: #d3b17d;
+    transform-origin: left;
+    transform: rotate(.23turn);
+}
+
+.schoolpic {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.schoolpic img {
+    margin: 10px 120px 20px 120px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.schoolpic img:hover {
+    transform: scale(1.1);
+}
+
+.text {
+    display: none;
+    position: relative;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+}
+
+footer {
+    color: #444444;
+    text-align: center;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="#aboutme">個人資訊</a>
+        <a href="#skill">特殊技能</a>
+        <a href="#history">個人經歷</a>
+        <a href="#interest">興趣</a>
+    </nav>
+    <main>
+        <a id="aboutme"></a>
+        <section name="self" style="border-radius:0px 0px 10px 10px ;">
+            <img id="myImage" src="image/pic.jpeg" alt="圖片">
+            <article>
+                <h2>林怡婷</h2>
+                <h4>中原大學 <br> 資訊管理學系 <br>
+                個人特質:   隨和、善於思考、躺平</h4>
+                <h4>聯絡方法 :</h4>
+                
+                    <a href="https://www.instagram.com/lin_yi_ting_93/" target="_blank"><img id="icon" src="image/ig.png" alt="ig"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100008358104146" target="_blank"><img id="icon" src="image/fb.png" alt="fb"></a>
+                    <a href="mailto:a0920695019@gmail.com"><img id="icon" src="image/gmail.png" alt="gmail"></a>
+                
+                <span class="slogan" style="margin-right: 45px;margin-top: 5px;">
+                    無所事事的一天，
+                </span><br>
+                <span class="slogan">
+                    就是最棒的一天。
+                </span>
+            </article>
+        </section>
+        <section style="display:grid;gap: 10px;grid-template-columns: 1fr 1fr;">
+            <h1 id="skill">特殊技能</h1>
+            <nav class="chart" name="barchart">
+                <div class="bar-container" style="width: 75%; padding-top: 15px;">
+                    <span class="label">Python</span>
+                    <div class="bar">75%</div>
+                </div>
+                <div class="bar-container" style="width: 75%;">
+                    <span class="label">Java</span>
+                    <div class="bar">75%</div>
+                </div>
+                <div class="bar-container" style="width: 70%;">
+                    <span class="label">HTML</span>
+                    <div class="bar">70%</div>
+                </div>
+                <div class="bar-container" style="width: 65%;">
+                    <span class="label">CSS</span>
+                    <div class="bar">65%</div>
+                </div>
+                <div class="bar-container" style="width: 40%; padding-bottom: 15px;">
+                    <span class="label">R</span>
+                    <div class="bar">40%</div>
+                </div>
+            </nav>
+            <nav class="chart" name="piechart">
+                <div class="piechart">
+                    <span class="label2">英文能力<br><br>
+                        <div class="pie1" >
+                        </div></span>
+                  </div>
+                <div class="piechart"> 
+                    <span class="label2">文書處理<br><br>
+                    <div class="pie2" >
+                    </div></span>
+                </div>
+            </nav>
+        </section>
+        <section name="self">
+            <h1 id="history" style="margin-bottom:30px ;">個人經歷</h1>
+            <h2 style="margin-left: 100px; text-decoration: underline;">學歷</h2>
+        <div class="schoolpic">
+            <span>中原大學</span>
+            <span>彰化女中</span>
+            <img  src="image/cycu.png" alt="圖片">
+            <img  src="image/chgsh.jpg" alt="圖片">
+        </div>
+            <h2 style="margin-left: 100px; text-decoration: underline;">活動</h2>
+            <img id="activity" src="image/volunteer.png">
+            <h3>大一管理學</h3> 
+            <article style="margin: 16px 55px 120px 120px;">大學一年級的管理學課程中，我們參加了志願服務活動，致力於照顧長者。透過這個活動，我學會了溝通、團隊合作和問題解決的重要性。每次和長者交流，都讓我感受到他們的智慧和溫暖。這個經驗不僅讓我更了解管理的人性層面，也增強了我的社會責任感和同理心。我相信這些價值將成為我未來路上的寶貴資產。</article>
+            <h2 style="margin-left: 100px;margin-bottom:30px ; text-decoration: underline;">獎狀</h2>
+            <div style="display: grid;gap: 10px;grid-template-columns: 1fr 1fr;justify-items: center;align-items: stretch;margin-bottom:20px ;">
+                <img id="prize" src="image/prize1.jpeg">
+                <img id="prize" src="image/prize2.jpeg">
+                <span>志工證明</span>
+                <span>參賽得獎</span>
+            </div>
+        </section>
+        <section style="padding:45px ;">
+            <h1 id="interest" style="margin-bottom:30px ;">興趣</h1>
+            <nav style="display: flex; justify-content: flex-start; margin-bottom:40px; border-radius: 80px ;background: #d3b17d linear-gradient(to right, transparent 25%,  #f9f5e8 0); ">
+                <img id="hobby" src="image/table-tennis.png">
+                <span style="text-align:left; margin-top:30px; margin-right: 40px;">打桌球是我興趣之一。在球桌上，我感受到挑戰和樂趣的結合。每次揮拍，都是對技巧和策略的探索，讓我不斷進步。與朋友或比賽中，我享受著競爭的刺激，也體會到團隊合作的重要性。打桌球不僅是運動，更是一種生活態度，讓我充滿活力和自信。</span>
+            </nav>
+            <nav style="display: flex; justify-content: flex-end;margin-bottom:40px;  border-radius:80px ;background: #f9f5e8 linear-gradient(to right, transparent 75%,  #d3b17d 0);">
+                <span style="text-align:left; margin-top:25px; margin-left: 40px;">我也愛玩遊戲，尤其喜歡回合制遊戲的策略性、大世界探索的冒險感，以及PvP的競技樂趣。在回合制遊戲中，我能挑戰自己的智慧與策略，享受思考和計劃的過程；大世界探索讓我沉浸在豐富多彩的遊戲世界中，探索未知的奇妙之處；而PvP則讓我與其他玩家切磋技巧，體驗戰鬥的激情與挑戰，這些遊戲帶給我無盡的樂趣和成就感。原神，啟動!</span>
+                <img id="hobby" src="image/game.png" style="margin: 30px 90px; ">
+            </nav>            
+            <nav style="display: flex; justify-content:flex-start; border-radius: 80px;background: #d3b17d linear-gradient(to right, transparent 25%,  #f9f5e8 0); ">
+                <img id="hobby" src="image/books.png">
+                <span style="text-align:left; margin-top:30px; margin-right: 40px;">閱讀心理學書籍和漫畫也是我的興趣之一。透過心理學書籍，我探索人類思想和行為的奧秘，深入了解自我和他人。漫畫則是我的輕鬆娛樂，帶給我無盡的想像和樂趣。這兩種迥然不同的閱讀方式豐富了我的生活，讓我在知識與娛樂之間找到了平衡。</span>
+            </nav>
+        </section>
+    </main>
+    <footer>
+        <h5>Copyrgiht @ 2024 All rights reserved</h5>
+    </footer>
+</body>
+</html>
